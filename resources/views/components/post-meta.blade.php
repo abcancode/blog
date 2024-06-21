@@ -1,10 +1,10 @@
-<diiv class="flex items-center justify-between">
+<div class="flex items-center justify-between">
 
     <div class="text-sm">Posted {{ $post->date->diffForHumans() }} by <a class="no-underline text-indigo-500 hover:text-indigo-700 transition-colors durration-100" href="/authors/{{ $post->author }}">{{ $post->author_name }}</a></div>
     
     @if (count($post->tags))
     
-        <div class="flex flex-row items-center">
+        <div class="flex flex-row items-center space-x-2">
     
             @foreach ($post->tags as $tag)
     
@@ -20,4 +20,4 @@
     
     @endif
 
-</diiv>
+</div>

@@ -18,7 +18,7 @@
 
       <h1 class="text-3xl font-bold">
 
-        My Personal Blog
+        <a href="/">{{ config('app.name')}}</a>
 
       </h1>
      

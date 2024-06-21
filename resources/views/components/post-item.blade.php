@@ -1,5 +1,5 @@
 <li>
-    <div class="space-y-5 prose max-w-none text-justify">
+    <div class="space-y-5 prose prose-lg max-w-none text-justify">
 
         <h2 class="not-prose">
 
